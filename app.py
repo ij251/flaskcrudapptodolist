@@ -72,4 +72,6 @@ def update(id):
 
 # if running the programme directly, run the app, show debugging on webpage
 if __name__ == '__main__':
+    print("starting app")
     app.run(debug=True)
+    
